@@ -1,0 +1,19 @@
+extends layout
+
+block content
+    h1 hello #{title}
+    table
+        thead
+            th id
+            th Title
+            th Author
+            th Body
+        tbody
+        each article, i in articles
+            tr
+                td= article.id
+                td= article.title
+                td= article.author
+                td= article.body
+            
+            

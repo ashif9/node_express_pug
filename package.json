@@ -1,0 +1,16 @@
+{
+  "name": "app.js",
+  "version": "1.0.0",
+  "description": "Knowledge base app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Ashif Sadique",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3",
+    "pug": "^2.0.4"
+  }
+}
